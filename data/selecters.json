@@ -1,0 +1,14 @@
+{
+    "kind": {
+        "text": "Filtro:",
+        "options": ["all", "zona", "operador"]
+    },
+    "zone": {
+        "text": "Zona:",
+        "options": ["area_antioquia", "area_caribe", "area_nordeste", "area_oriental", "area_suroccidental"]
+    },
+    "vendor": {
+        "text": "Operador:",
+        "options": ["xm", "ceo", "celsia", "codensa", "cens"]
+    }
+}
