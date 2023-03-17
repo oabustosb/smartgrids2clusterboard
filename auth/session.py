@@ -7,7 +7,7 @@ References
 from typing import Any
 
 try:
-    from streamlit.scriptrunner import get_script_run_ctx as get_report_ctx
+    from streamlit.ReportThread as ReportThread
     from streamlit.server.Server import Server
 except ImportError:
     # Streamlit >= 0.65.0
