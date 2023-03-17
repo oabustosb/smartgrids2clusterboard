@@ -72,7 +72,7 @@ requests
 Send2Trash
 six
 smmap
-streamlit
+streamlit==1.9.1
 terminado
 testpath
 toml
