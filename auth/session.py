@@ -7,7 +7,7 @@ References
 from typing import Any
 
 try:
-    import streamlit.ReportThread as ReportThread
+    from streamlit.scriptrunner import get_script_run_ctx as get_report_ctx
     from streamlit.server.Server import Server
 except ImportError:
     # Streamlit >= 0.65.0
@@ -58,7 +58,7 @@ def get(**kwargs):
     """
     # Hack to get the session object from Streamlit.
 
-    ctx = ReportThread.get_report_ctx()
+    ctx = get_report_ctx()
 
     this_session = None
     current_server = Server.get_current()
