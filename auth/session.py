@@ -7,7 +7,7 @@ References
 from typing import Any
 
 try:
-    from streamlit.ReportThread as ReportThread
+    from streamlit.ReportThread import ReportThread
     from streamlit.server.Server import Server
 except ImportError:
     # Streamlit >= 0.65.0
